@@ -1,0 +1,40 @@
+.app{
+    width: 800px;
+    height: 800px;
+    border: solid;
+    margin: auto;
+    border-color: gainsboro;
+}
+.app ul{
+    background-color: gainsboro;
+    height: 60px;
+}
+.app ul li{
+    display: inline;
+    margin-right: 40px;
+    float: right;
+    margin-top: 20px;
+}
+.app ul li a{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.app ul li a:link{
+    text-decoration: none;
+}
+.app ul li a:hover{
+    text-decoration: underline;
+}
+div{
+    margin-left: 10px;
+}
+div p{
+    color:black;
+    font-size: 20px;
+}
+div p a{
+    color: red;
+}
